@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    padding: 0px 24px;
+    flex-wrap: wrap;
+}
+.overlap-box{
+    position: relative;
+}
+.overlap-search{
+    position: absolute;
+    top: 23px;
+    left: 1060px;
+}
+.right-nav img{
+    margin-right: 24px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.left-nav img{
+    position: relative;
+    margin-right: 30px;
+}
+#logoytb{
+    position: absolute;
+    top: 25px;
+}
+main{
+    float: left;
+    width: 60%;
+}
+.thumb{
+    margin-top: 20px;
+    margin-left: 161px;
+}
+.title-video{
+    font-family: "Roboto";
+    margin-left: 161px;
+}
+.top-row{
+    display: flex;
+    align-items: center;
+    margin-left: 161px;
+    margin-top: 40px;
+}
+.channel-info{
+    display: inline-block;
+    margin-left: 12px;
+}
+.channel-name{
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.channel-subs{
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.channel-info h4, .channel-info p{
+    margin: 0;
+}
+.button-channel-subscribe{
+    position: relative;
+    left: 50px;
+    width: 160px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-text{
+    position: absolute;
+    white-space: nowrap;
+    font-family: "Roboto";
+    top: 0px;
+    left: 40px;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.video-avaliation{
+    display: flex;
+    align-items: center;
+    margin-right: 33px;
+}
+.text-video-avaliation{
+    font-family: "Roboto";
+    margin-left: 10px;
+}
+.below{
+    width: 700px;
+}
+.below-text{
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-left: 161px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+}
+.others-thumb img{
+    margin-bottom: 10px;
+}
+.thumb-item{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+.thumb-item img{
+    margin-right: 10px;
+}
+.text-thumbs{
+    font-family: "Roboto";
+    font-size: 12px;
+}
+.title-video-aside{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 14px;
+    margin-block-start: 0px;
+}
